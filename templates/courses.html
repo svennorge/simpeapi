@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{%block title%} Courses {%endblock title%}
+
+{% block contents %}
+ <h1>Official and Recomended Coourses</h1>
+     <table>
+        <tr>
+           <td>Id</td>
+            <td>Name</td>
+            <td>Comment</td>
+        </tr>
+         {% for training in trainings %}
+        <tr>
+            <th>{{ training.training_id }}</th>
+            <th>{{ training.name }}</th>
+            <th>later</th>
+        </tr>
+     {% endfor %}
+    </table>
+{% endblock contents %}

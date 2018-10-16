@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{%block title%} Animals {%endblock title%}
+
+{% block contents %}
+     <h1>Animals</h1>
+     <table>
+        <tr>
+           <td>Id</td>
+            <td>Vorname</td>
+            <td>Nachname</td>
+            <td>Stammnummer</td>
+        </tr>
+         {% for animal in animals %}
+        <tr>
+            <th>{{ animal.id }}</th>
+            <th>{{ animal.fstname }}</th>
+            <th>{{ animal.lstname }}</th>
+            <th>{{ animal.qnummer }}</th>
+        </tr>
+     {% endfor %}
+    </table>
+{% endblock contents %}
