@@ -24,6 +24,7 @@ user_data = [
 
 
 class User(Resource):
+    '''Basic API Calls for User'''
     def get(self, name):
         for user in users:
             if (name == user["name"]):
