@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="ca34f617-0d87-4980-9d9f-1227a8a43d36" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses.py" beforeDir="false" afterPath="$PROJECT_DIR$/courses.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.old.json" beforeDir="false" />
+    </list>
+||||||| merged common ancestors
+    <list default="true" id="ca34f617-0d87-4980-9d9f-1227a8a43d36" name="Default Changelist" comment="" />
+=======
     <list default="true" id="ca34f617-0d87-4980-9d9f-1227a8a43d36" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/Basic/basicapi.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
@@ -15,6 +26,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/simpleapi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/simpleapi.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
+>>>>>>> c85405f9ddd4d0f7fdb4a6699e6e75cbc7a3764c
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,11 +48,12 @@
     <session id="-1175625816">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.79" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -48,31 +61,31 @@
           <entry key="Python Console" value="16" />
           <entry key="dummy" value="7" />
           <entry key="html" value="370" />
-          <entry key="json" value="11" />
-          <entry key="py" value="2853" />
+          <entry key="json" value="14" />
+          <entry key="py" value="3220" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="370" />
-          <entry key="JSON" value="11" />
+          <entry key="JSON" value="14" />
           <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Python" value="2200" />
+          <entry key="Python" value="2567" />
           <entry key="Scratch" value="669" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="3" />
-          <entry key="json" value="8" />
-          <entry key="py" value="11" />
+          <entry key="json" value="20" />
+          <entry key="py" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="3" />
-          <entry key="JSON" value="8" />
-          <entry key="Python" value="8" />
+          <entry key="JSON" value="20" />
+          <entry key="Python" value="10" />
           <entry key="Scratch" value="3" />
         </counts>
       </usages-collector>
@@ -108,6 +121,45 @@
     </session>
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/courses.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="359">
+              <caret line="70" column="32" lean-forward="true" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/user.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="466">
+              <caret line="53" column="32" lean-forward="true" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/courses.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1" selection-start-column="1" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+||||||| merged common ancestors
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+=======
     <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Basic/basicapi.py">
@@ -134,6 +186,7 @@
         </entry>
       </file>
     </leaf>
+>>>>>>> c85405f9ddd4d0f7fdb4a6699e6e75cbc7a3764c
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -162,10 +215,15 @@
         <option value="$PROJECT_DIR$/moi.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py" />
-        <option value="$PROJECT_DIR$/courses.py" />
         <option value="$PROJECT_DIR$/user.py" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/courses.json" />
+        <option value="$PROJECT_DIR$/courses.py" />
+||||||| merged common ancestors
+=======
         <option value="$PROJECT_DIR$/Basic/basicapi.py" />
         <option value="$PROJECT_DIR$/main.py" />
+>>>>>>> c85405f9ddd4d0f7fdb4a6699e6e75cbc7a3764c
       </list>
     </option>
   </component>
@@ -175,10 +233,22 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+<<<<<<< HEAD
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+||||||| merged common ancestors
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1920" />
+    <option name="y" value="23" />
+    <option name="width" value="1853" />
+    <option name="height" value="1006" />
+=======
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1853" />
     <option name="height" value="977" />
+>>>>>>> c85405f9ddd4d0f7fdb4a6699e6e75cbc7a3764c
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -410,14 +480,37 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
+||||||| merged common ancestors
+    <frame x="-1920" y="23" width="1853" height="1006" extended-state="0" />
+=======
     <frame x="0" y="23" width="1853" height="977" extended-state="0" />
+>>>>>>> c85405f9ddd4d0f7fdb4a6699e6e75cbc7a3764c
     <layout>
+<<<<<<< HEAD
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25824177" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+||||||| merged common ancestors
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2313639" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+=======
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49827588" visible="true" weight="0.23357262" />
       <window_info id="Structure" order="1" sideWeight="0.5017241" side_tool="true" visible="true" weight="0.23357262" />
+>>>>>>> c85405f9ddd4d0f7fdb4a6699e6e75cbc7a3764c
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.15047021" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28619528" />
+||||||| merged common ancestors
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32996634" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28619528" />
+=======
       <window_info anchor="bottom" id="Find" order="1" weight="0.32996634" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2858757" />
+>>>>>>> c85405f9ddd4d0f7fdb4a6699e6e75cbc7a3764c
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39842874" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -426,9 +519,18 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.34567901" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32884398" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32772166" />
+||||||| merged common ancestors
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.34567901" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32884398" />
+=======
       <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.34463277" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32881355" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32772166" />
+>>>>>>> c85405f9ddd4d0f7fdb4a6699e6e75cbc7a3764c
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -476,6 +578,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+<<<<<<< HEAD
+||||||| merged common ancestors
+          <folding>
+            <marker date="1539590751000" expanded="true" signature="186:191" ph="..." />
+            <marker date="1539590751000" expanded="true" signature="186:290" ph="..." />
+            <marker date="1539590751000" expanded="true" signature="216:221" ph="..." />
+            <marker date="1539590751000" expanded="true" signature="265:270" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -483,6 +593,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="150" lean-forward="true" selection-start-column="150" selection-end-column="150" />
+=======
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="150" lean-forward="true" selection-start-column="150" selection-end-column="150" />
+>>>>>>> c85405f9ddd4d0f7fdb4a6699e6e75cbc7a3764c
         </state>
       </provider>
     </entry>
@@ -518,20 +637,65 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/course.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/courses.json">
+||||||| merged common ancestors
+    <entry file="file://$PROJECT_DIR$/user.py">
+=======
     <entry file="file://$PROJECT_DIR$/Basic/basicapi.py">
+>>>>>>> c85405f9ddd4d0f7fdb4a6699e6e75cbc7a3764c
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="150" lean-forward="true" selection-start-column="150" selection-end-column="150" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/courses.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="70" column="32" lean-forward="true" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
+||||||| merged common ancestors
+        <state relative-caret-position="795">
+          <caret line="53" column="32" lean-forward="true" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
+=======
         <state relative-caret-position="-405">
           <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+>>>>>>> c85405f9ddd4d0f7fdb4a6699e6e75cbc7a3764c
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/user.py">
+||||||| merged common ancestors
+    <entry file="file://$PROJECT_DIR$/courses.py">
+=======
     <entry file="file://$PROJECT_DIR$/main.py">
+>>>>>>> c85405f9ddd4d0f7fdb4a6699e6e75cbc7a3764c
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="466">
+          <caret line="53" column="32" lean-forward="true" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
+||||||| merged common ancestors
+        <state relative-caret-position="250">
+          <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+=======
         <state relative-caret-position="263">
           <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+>>>>>>> c85405f9ddd4d0f7fdb4a6699e6e75cbc7a3764c
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>

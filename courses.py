@@ -56,14 +56,14 @@ class user(Resource):
 
     def put(self, name):
         with open('data.json') as infile:
-            users = json.load(infile)
+            self.users = json.load(infile)
         parser = reqparse.RequestParser()
         parser.add_argument("age")
         parser.add_argument("occupation")
         parser.add_argument("location")
         args = parser.parse_args()
 
-        for user in users:
+        for user in self.users:
             if (name == user["name"]):
                 user["age"] = args["age"]
                 user["occupation"] = args["occupation"]
@@ -76,9 +76,9 @@ class user(Resource):
             "occupation": args["occupation"],
             "location": args["location"]
         }
-        users.append(user)
+        self.users.append(user)
         with open('data.json', 'w') as outfile:
-            json.dump(users, outfile)
+            json.dump(self.users, outfile)
         return user, 201
 
     def delete(self, name):
@@ -88,7 +88,38 @@ class user(Resource):
 
         return "{} is deleted.".format(name), 200
 
+class courses(Resource):
+    jsonfile = 'courses.json'
+    courses = []
+
+    def __init__(self):
+        '''create the course.json file if it dows not exists'''
+
+        try:
+            with open(self.jsonfile,  'r') as infile:
+                self.courses = json.load(infile)
+        except FileNotFoundError:
+            with open(self.jsonfile, 'w') as outfile:
+                json.dump(self.courses, outfile)
+
+
+    def get(self, name):
+        with open(self.jsonfile) as infile:
+            courses = json.load(infile)
+        for course in courses:
+            if (name == course["name"]):
+                return course, 200
+            else:
+                with open(self.jsonfile, 'w') as outfile:
+                    json.dump(users, outfile)
+                return self.courses, 200;
+        return "Course not found", 404
+
+
 
 api.add_resource(user, "/user/<string:name>")
+
+api.add_resource(courses, "/course/<string:name>")
+
 
 app.run(debug=True)
