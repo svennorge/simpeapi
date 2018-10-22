@@ -22,45 +22,40 @@ user_data = [
     }
 ]
 
+course_data = [
+    {
+        "name": "DevOps",
+        "couse_id": "10/1000",
+        "location": "Berlin"
+    }
+]
+
 
 class User(Resource):
     '''Basic API Calls for User'''
+
     def get(self, name):
-        for user in users:
+        for user in user_data:
             if (name == user["name"]):
                 return user, 200
         return "User not found", 404
-
-    def put(self, name):
-        parser = reqparse.RequestParser()
-        parser.add_argument("age")
-        parser.add_argument("occupation")
-        args = parser.parse_args()
-
-        for user in users:
-            if (name == user["name"]):
-                user["age"] = args["age"]
-                user["occupation"] = args["occupation"]
-                return user, 200
-
-        user = {
-            "name": name,
-            "age": args["age"],
-            "occupation": args["occupation"]
-        }
-        users.append(user)
-        return user, 201
 
 
 class Course(Resource):
     def get(self, name):
-        for user in users:
-            if (name == user["name"]):
-                return user, 200
-        return "User not found", 404
+        for course in course_data:
+            if (name.lower() == (course["name"]).lower()):
+                return course, 200
+        return "Course not found", 404
 
 
+if __name__ == '__main__':
+    data = [{"name": "DevOps2", "couse_id": "10/1000","location": "Munich"}]
+    course_data.append(data)
+
+
+print(course_data)
 api.add_resource(User, "/user/<string:name>")
 api.add_resource(Course, "/course/<string:name>")
+app.run(debug=True, port=7007)
 
-app.run(debug=True, port= 7007)
